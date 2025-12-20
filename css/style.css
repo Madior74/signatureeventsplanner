@@ -215,6 +215,13 @@ strong {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+    opacity: 0.8;
 }
 
 .logo span {
