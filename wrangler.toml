@@ -1,0 +1,14 @@
+name = "signature-event"
+compatibility_date = "2024-10-10"
+pages_build_output_dir = "."
+
+[env.production]
+name = "signature-event-prod"
+
+[[env.production.rules]]
+type = "Headers"
+globs = ["/_headers"]
+
+[[env.production.rules]]
+type = "Redirects"
+globs = ["/_redirects"]
