@@ -1,6 +1,0 @@
-# Redirects
-/home          /index.html  200
-/index         /index.html  200
-
-# SPA fallback
-/*             /index.html  200
